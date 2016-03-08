@@ -30,7 +30,7 @@ Input keys:
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.parentgithubusername.pkg.____</string>
+    <string>com.github.ModernMechanic.pkg.boxsync</string>
     <key>Process</key>
     <array>
         <dict>
