@@ -75,7 +75,7 @@
                     <string>purge_ds_store</string>
                     <key>chown</key>
                     <array>
-                        <dict><!-- -->
+                        <dict>
                             <key>path</key>
                             <string>Applications</string>
                             <key>user</key>
