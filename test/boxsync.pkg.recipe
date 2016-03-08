@@ -3,25 +3,25 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads latest Skype disk image and builds a package.</string>
+    <string>Downloads latest Box Sync installer and builds a disk image.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.pkg.Skype</string>
+    <string>com.github.ModernMechanic.pkg.boxsync</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Skype</string>
+        <string>Box Sync</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.autopkg.download.Skype</string>
+    <string>com.github.ModernMechanic.download.boxsync</string>
     <key>Process</key>
     <array>
         <dict>
             <key>Arguments</key>
             <dict>
                 <key>info_path</key>
-                <string>%pathname%/Skype.app/Contents/Info.plist</string>
+                <string>%pathname%/Box Sync.app/Contents/Info.plist</string>
                 <key>plist_keys</key>
                 <dict>
                     <key>CFBundleVersion</key>
@@ -53,9 +53,9 @@
             <key>Arguments</key>
             <dict>
                 <key>source_path</key>
-                <string>%pathname%/Skype.app</string>
+                <string>%pathname%/Box Sync.app</string>
                 <key>destination_path</key>
-                <string>%pkgroot%/Applications/Skype.app</string>
+                <string>%pkgroot%/Applications/Box Sync.app</string>
             </dict>
         </dict>
         <dict>
