@@ -23,7 +23,7 @@ Input keys:
     <key>Input</key>
     <dict>
         <key>DS_PKGS_PATH</key>
-        <string>/Desktop/DStest</string>
+        <string>/Users/sysadmin/Desktop/DStest</string>
         <key>DS_NAME</key>
         <string>%NAME%</string>
     </dict>
