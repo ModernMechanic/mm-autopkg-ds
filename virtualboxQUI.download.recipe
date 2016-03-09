@@ -13,8 +13,8 @@
         <key>DOWNLOAD_URL</key>
         <string>http://mirror.int.quid.com/http/VirtualBox-5.0.10-104061-OSX.dmg</string>
     </dict>
-    <key>MinimumVersion</key>
-    <string>0.4.0</string>
+    <!--<key>MinimumVersion</key>
+    <string>0.4.0</string>-->
     <key>Process</key>
     <array>
         <dict>
