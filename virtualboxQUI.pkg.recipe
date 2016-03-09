@@ -17,7 +17,7 @@
     <string>com.github.ModernMechanic.download.virtualboxQUI</string>
     <key>Process</key>
     <array>
-        <dict>
+    <!--<dict>
             <key>Arguments</key>
             <dict>
                 <key>info_path</key>
@@ -32,7 +32,7 @@
             </dict>
             <key>Processor</key>
             <string>PlistReader</string>
-        </dict>
+        </dict>-->
         <dict>
             <key>Processor</key>
             <string>PkgRootCreator</string>
