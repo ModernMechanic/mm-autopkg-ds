@@ -19,7 +19,7 @@ Input keys:
   It defaults to %NAME% (just the app name); use %pkgname% if you want the version number appended.
 </string>
     <key>Identifier</key>
-    <string>com.github.ModernMechanic.ds.crashplanproeclient</string>
+    <string>com.github.ModernMechanic.ds.textwrangler</string>
     <key>Input</key>
     <dict>
         <key>DS_PKGS_PATH</key>
@@ -30,7 +30,7 @@ Input keys:
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.homebysix.pkg.CrashPlanPROeClient</string>
+    <string>com.github.autopkg.pkg.TextWrangler</string>
     <key>Process</key>
     <array>
         <dict>
@@ -53,7 +53,7 @@ or new_package_request (used by PkgCreator) will be used to the left of the ==. 
 <!-- If you created the pkg using PkgCreator, use %pkg_path% for the source_path.
 If you extracted an existing pkg (e.g., using Unarchiver), the conventional source_path 
 would be %RECIPE_CACHE_DIR%/%NAME%/*.pkg -->
-                <string>%RECIPE_CACHE_DIR%/*.pkg</string>
+                <string>%pkg_path%</string>
                 <key>destination_path</key>
                 <string>%DS_PKGS_PATH%/%DS_NAME%.pkg</string>
                 <key>overwrite</key>
