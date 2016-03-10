@@ -20,15 +20,15 @@
         <dict>
             <key>Arguments</key>
             <dict>
-                <key>info_path</key>
-                <string>%pathname%/VirtualBox.app/Contents/Info.plist</string>
-            <!--<key>plist_keys</key>
+            <!--<key>info_path</key>
+                <string>%pathname%/VirtualBox.app/Contents/Info.plist</string>-->
+            <key>plist_keys</key>
                 <dict>
                     <key>CFBundleVersion</key>
                     <string>version</string>
                     <key>CFBundleIdentifier</key>
                     <string>bundleid</string>
-                </dict>-->
+                </dict>
             </dict>
             <key>Processor</key>
             <string>PlistReader</string>
@@ -67,13 +67,13 @@
                 <dict>
                     <key>pkgname</key>
                     <string>%NAME%</string>
-                <!--<key>version</key>
+                    <key>version</key>
                     <string>%version%</string>
                     <key>id</key>
                     <string>%bundleid%</string>
                      <key>options</key>
                     <string>purge_ds_store</string>
-                    <key>chown</key>-->
+                    <key>chown</key>
                     <array>
                         <dict>
                             <key>path</key>
