@@ -33,10 +33,10 @@
             <string>EndOfCheckPhase</string>
         </dict>
         <dict>
-        <!--<key>Processor</key>
+            <key>Processor</key>
             <string>CodeSignatureVerifier</string>
             <key>Arguments</key>
-            <dict>-->
+            <dict>
                 <key>input_path</key>
                 <string>%pathname%/VirtualBox.app</string>
             <!--<key>requirement</key>
