@@ -27,6 +27,8 @@ Input keys:
         <key>DS_NAME</key>
         <string>%NAME%</string>
     </dict>
+    <key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
+    <string>True</string>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
