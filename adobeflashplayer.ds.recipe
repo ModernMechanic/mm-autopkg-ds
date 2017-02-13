@@ -60,6 +60,19 @@ would be %RECIPE_CACHE_DIR%/%NAME%/*.pkg -->
                 <true/>
             </dict>
         </dict>
+        <dict>
+    <key>Identifier</key>
+    <string>local.jss.R</string>
+    <key>Input</key>
+    <dict>
+        <key>NAME</key>
+        <string>R</string>
+        <key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
+        <string>true</string>
+    </dict>
+    <key>ParentRecipe</key>
+    <string>com.github.jss-recipes.jss.R</string>
+</dict>
     </array>
 </dict>
 </plist>
