@@ -26,6 +26,8 @@ Input keys:
         <string>/Volumes/dsrepo/Packages</string>
         <key>DS_NAME</key>
         <string>%NAME%</string>
+        <key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
+        <false />
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
