@@ -19,7 +19,7 @@ Input keys:
   It defaults to %NAME% (just the app name); use %pkgname% if you want the version number appended.
 </string>
     <key>Identifier</key>
-    <string>com.github.ModernMechanic.ds.crashplanproeclient02</string>
+    <string>com.github.ModernMechanic.ds.crashplanproeclient03</string>
     <key>Input</key>
     <dict>
         <key>DS_PKGS_PATH</key>
