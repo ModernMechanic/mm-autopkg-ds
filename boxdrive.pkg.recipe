@@ -9,7 +9,7 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Cyberduck</string>
+        <string>Box Drive</string>
     </dict>
     <key>ParentRecipe</key>
     <string>com.github.dataJAR-recipes.download.boxdrive</string>
