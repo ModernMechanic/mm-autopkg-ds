@@ -27,7 +27,6 @@
                 <key>dmg_path</key>
                 <string>%pathname%</string>
             </dict>
-            </dict>
         </dict>
         <dict>
             <key>Comment</key>
