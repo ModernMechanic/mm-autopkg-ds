@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the current release version of Cyberduck and builds a package.</string>
+    <string>Downloads the current release version of Box Drive and builds a package.</string>
     <key>Identifier</key>
     <string>com.github.ModernMechanic.pkg.boxdrive</string>
     <key>Input</key>
@@ -69,7 +69,7 @@
                     <key>version</key>
                     <string>%version%</string>
                     <key>id</key>
-                    <string>ch.sudo.cyberduck</string>
+                    <string>ch.sudo.boxdrive</string>
                     <key>options</key>
                     <string>purge_ds_store</string>
                     <key>chown</key>
