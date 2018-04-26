@@ -28,7 +28,7 @@ Input keys:
         <string>%NAME%</string>
     </dict>
     <key>MinimumVersion</key>
-    <string>0.2.0</string>
+    <string>0.0.0</string>
     <key>ParentRecipe</key>
     <string>com.github.ModernMechanic.pkg.boxdrive</string>
     <key>Process</key>
